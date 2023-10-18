@@ -6,9 +6,9 @@ import Footer from './Footer';
 
 export const Layout = () => {
   return (
-    <div>
+    <div id="layout-wrapper">
       <Header />
-      <div>
+      <div id="body-wrapper">
         <Outlet />
       </div>
       <Footer />
